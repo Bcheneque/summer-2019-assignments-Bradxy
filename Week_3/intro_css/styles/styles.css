@@ -1,0 +1,29 @@
+#container {
+    width: 700px;
+    height: 400px;
+    background-color: blanchedalmond;
+}
+
+#header {
+    width: 500px;
+    height: 300px;
+    border-style: dotted;
+    border-color:blueviolet;
+    background-color: chartreuse;
+}
+
+#main {
+   width: 200px;
+    height:200px;
+    background-color:crimson;
+    border-style:dashed;
+    border-color:darkturquoise;
+}
+
+#footer{
+  width: 300px;
+    height: 200px;
+    background-color:cyan;
+    border-style:ridge;
+    border-color: deeppink;
+}
