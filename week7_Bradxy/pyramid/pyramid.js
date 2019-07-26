@@ -30,24 +30,50 @@ if (pyramid1) {
     console.log("* *");
 
 } */
-
-function pyramidString(string) {
+function pyramid(string) {
 
     for(var i = 0; i < 6; i++) {
 
         console.log(string);
+
         string += "*";
     }
 }
 
-pyramidString ();
+pyramid("*");
 
 
 
 
-var ast1 = "*";
+/*var ast1 = "*";
 
-console.log(ast1);
+ console.log(ast1);
+
+ast1 = ast1 +  "*";
+
+ console.log(ast1);
+
+ast1 = ast1 + "*";
+
+ console.log(ast1); */
+
+// using loops
+var ast1 = ""
+
+/*ast1 = ast1 + "*";
+  console.log(ast1);
+
+ ast1 = ast1 + "*";
+   console.log(ast1);
+
+ ast1 = ast1 + "*";
+   console.log(ast1); */
+
+// this is the same code simplified for repetitive code
+for( var i = 0; i < 5; i++) {
+    ast1 = ast1 + "*";
+    console.log(ast1);
+}
 
 
 
