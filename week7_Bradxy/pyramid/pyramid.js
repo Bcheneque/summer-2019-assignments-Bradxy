@@ -36,12 +36,19 @@ function pyramidString(string) {
     for(var i = 0; i < 6; i++) {
 
         console.log(string);
-
         string += "*";
     }
 }
 
 pyramidString ();
+
+
+
+
+var ast1 = "*";
+
+console.log(ast1);
+
 
 
 
